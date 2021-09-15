@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BiodataSederhana</string>
+    <string-array name="properti_biodata">
+        <item>Nama : Naufal Haidar Rauf</item>
+        <item>NIM : A11.2019.12342</item>
+        <item>Hobi : Mengikuti perkembangan teknologi</item>
+        <item>Deskripsi singkat : Mahasiswa yang kini mendalami PHP dan MySQL</item>
+    </string-array>
+</resources>

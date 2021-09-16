@@ -1,6 +1,6 @@
-*Aplikasi Biodata Sederhana*
+# Aplikasi Biodata Sederhana
 
-***Rincian***
+### Rincian
 
 1. *Android Studio Arctic Fox*
 2. *Android Image R API Level 30*

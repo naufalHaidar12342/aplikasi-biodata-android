@@ -18,27 +18,26 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //fungsi untuk membuka phone app
+    //menggunakan Implicit Intent
     public void openPhone(View passedView){
         Uri callNumber=Uri.parse("tel:0811222333444");
         Intent callIntent=new Intent(Intent.ACTION_DIAL,callNumber);
         startActivity(callIntent);
     }
 
-//    public void numberToPhonePackage(View view){
-//        Intent intent=getPackageManager().getLaunchIntentForPackage("com.google.android.dialer");
-//        intent.setAction(Intent.ACTION_SEND);
-//        intent.putExtra(Intent.EXTRA_TEXT,"085156967023");
-//        intent.setType("text/plain");
-//        startActivity(intent);
-//    }
-
+    //fungsi untuk membuka email app
+    //menggunakan Implicit Intent
     public void openGmail(View passedView){
         Uri tujuanEmail=Uri.parse("mailto:111201912342@mhs.dinus.ac.id");
+        String subjek="coba email";
         Intent callIntent=new Intent(Intent.ACTION_SENDTO,tujuanEmail);
         startActivity(callIntent);
 
-
     }
+
+    //fungsi untuk membuka mail apps
+    //menggunakan Implicit Intent
     public void openGmaps(View view){
         //z adalah level zoom. paling tinggi nilainya=23
         String latnLong="@-7.0258396,110.4697273,15z";
@@ -50,6 +49,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intentPeta = new Intent(Intent.ACTION_VIEW, locations);
         startActivity(intentPeta);
     }
+
+        //mencoba menggunakan explicit Intent
+//    public void numberToPhonePackage(View view){
+//        Intent intent=getPackageManager().getLaunchIntentForPackage("com.google.android.dialer");
+//        intent.setAction(Intent.ACTION_SEND);
+//        intent.putExtra(Intent.EXTRA_TEXT,"085156967023");
+//        intent.setType("text/plain");
+
+//        startActivity(intent);
+//    }
 //    public void gmailPackage(View view){
 //        String[] tujuan={
 //                "111201912342@mhs.dinus.ac.id",

@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">BiodataSederhana</string>
+    <string name="photo_profil_mahasiswa">photo profil mahasiswa</string>
+    <string name="naufal_haidar_rauf">Naufal Haidar Rauf</string>
+    <string name="a11_2019_12342">A11.2019.12342</string>
+    <string name="solving_problem">Solving Problem</string>
+    <string name="mahasiswa_s1_ti">Mahasiswa S1 TI</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="alamat">Alamat</string>
+    <string name="kontak">Kontak</string>
     <string-array name="properti_biodata">
         <item>Nama : Naufal Haidar Rauf</item>
         <item>NIM : A11.2019.12342</item>

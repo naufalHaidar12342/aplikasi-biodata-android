@@ -43,7 +43,7 @@ dependencies {
 
 ## Demonstrasi
 
-![app demo](assets/Peek2021-10-2811-18.gif)
+![app demo](assets/Peek-2021-10-29-01-06.gif)
 
 <div id="small-notes">
 
